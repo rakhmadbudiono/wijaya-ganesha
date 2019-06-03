@@ -1,0 +1,1 @@
+<img class="img-fluid w-100" src="<?= BASEURL; ?>/img/sumber-wuluh-ngoro-mojokerto.jpg">

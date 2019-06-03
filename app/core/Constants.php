@@ -1,3 +1,3 @@
 <?php
 
-define('BASEURL', 'http://localhost/wijayaganesha/public');;
+define('BASEURL', 'http://localhost/wijaya-ganesha/public');;
