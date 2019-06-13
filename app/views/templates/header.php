@@ -8,33 +8,43 @@
         <?= $data['title']; ?>
     </title>
     <link rel="shortcut icon" href="<?= BASEURL; ?>/img/logo.png" />
-    <link rel="stylesheet" href="<?= BASEURL; ?>/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/animate.css">
+    
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/aos.css">
+
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/jquery.timepicker.css">
+    
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/flaticon.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/icomoon.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand mr-5" href="<?= BASEURL; ?>/home">
-            <img src="<?= BASEURL; ?>/img/logo.png" width="30" height="30" class="d-inline-block align-top mx-2" alt="">
-            Wijaya Ganesha
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Wijaya Ganesha</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item active mr-4">
-                <a class="nav-link" href="<?= BASEURL; ?>/home">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active mr-4">
-                <a class="nav-link" href="<?= BASEURL; ?>/articles">Articles</a>
-            </li>
-            <li class="nav-item active mr-4">
-                <a class="nav-link" href="<?= BASEURL; ?>/about">About</a>
-            </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#practice-section" class="nav-link"><span>Practice Areas</span></a></li>
+	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	</nav>
